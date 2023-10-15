@@ -24,6 +24,13 @@ project "googlemock"
 		runtime "Debug"
 		symbols "on"
 
+	filter "configurations:Test"
+		defines { 
+			"DEBUG" 
+		}
+		runtime "debug"
+		symbols "On"
+
 	filter "configurations:Release"
 		defines { 
 			"NDEBUG" 
