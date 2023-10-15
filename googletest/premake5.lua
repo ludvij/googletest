@@ -25,6 +25,13 @@ project "googletest"
 		runtime "debug"
 		symbols "On"
 
+	filter "configurations:Test"
+		defines { 
+			"DEBUG" 
+		}
+		runtime "debug"
+		symbols "On"
+
 	filter "configurations:Release"
 		defines { 
 			"NDEBUG" 
