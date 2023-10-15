@@ -1,7 +1,6 @@
 -- https://github.com/babaliaris/googletest/blob/main/googletest/premake5.lua
 
 project "googletest"
-	staticruntime "on"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
