@@ -1,6 +1,5 @@
 -- https://github.com/babaliaris/googletest/blob/main/googlemock/premake5.lua
 project "googlemock"
-	staticruntime "on"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "c++17"
